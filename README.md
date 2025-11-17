@@ -6,6 +6,10 @@ Sistema de Recomendação Inteligente de Livros Baseado em Histórico de Leitura
 
 O BookSuggest-AI conecta-se à sua planilha pessoal do Google Sheets e utiliza IA (Google Gemini) para analisar padrões de preferência baseados no seu histórico real de leitura e avaliações, gerando recomendações personalizadas e precisas.
 
+## Representação visual
+
+https://github.com/user-attachments/assets/0aa9f9a2-3e4c-4680-8d98-e2c6af096eb8
+
 ## Funcionalidades
 
 - ✅ Autenticação via Google OAuth 2.0
