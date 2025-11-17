@@ -1,0 +1,45 @@
+# Ignore environment variables file
+.env
+
+# Ignore database files
+*.db
+data/
+
+# Go specific ignores
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Coverage reports
+*.cover
+coverage.html
+
+# Binaries
+/bin/
+/dist/
+
+# Vendor directory (if using vendor)
+/vendor/

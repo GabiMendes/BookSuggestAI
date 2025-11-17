@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSuggest AI - Recomendações Inteligentes de Livros</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="min-vh-100 bg-gradient-primary d-flex align-items-center">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-10 col-lg-12 col-md-9">
+                    <div class="card o-hidden border-0 shadow-lg my-5">
+                        <div class="card-body p-0">
+                            <div class="row">
+                                <div class="col-lg-6 d-none d-lg-block bg-login-image">
+                                    <div class="p-5">
+                                        <div class="text-center">
+                                            <i class="fas fa-book-reader fa-5x text-primary mb-4"></i>
+                                            <h3 class="text-dark mb-4">Descubra seu próximo livro favorito!</h3>
+                                            <p class="text-muted">Conecte sua planilha do Google Sheets e receba recomendações personalizadas baseadas no seu histórico de leitura.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="p-5">
+                                        <div class="text-center">
+                                            <h1 class="h4 text-gray-900 mb-4">BookSuggest AI</h1>
+                                            <p class="text-muted mb-4">Recomendações Inteligentes de Livros</p>
+                                        </div>
+                                        
+                                        <div class="text-center">
+                                            <div class="mb-4">
+                                                <i class="fas fa-brain fa-3x text-info mb-3"></i>
+                                                <h5>Como funciona?</h5>
+                                                <div class="text-start">
+                                                    <p class="mb-2"><i class="fas fa-check text-success me-2"></i>Conecte sua planilha do Google Sheets</p>
+                                                    <p class="mb-2"><i class="fas fa-check text-success me-2"></i>Nossa IA analisa seus padrões de leitura</p>
+                                                    <p class="mb-4"><i class="fas fa-check text-success me-2"></i>Receba 3 recomendações personalizadas</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <a href="/auth/google" class="btn btn-google btn-user btn-block mb-3">
+                                                <i class="fab fa-google fa-fw me-2"></i>Entrar com Google
+                                            </a>
+                                            
+                                            <div class="text-muted small">
+                                                <p>Suas informações são seguras e utilizadas apenas para gerar recomendações personalizadas.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,170 @@
+/* Custom CSS for BookSuggest AI */
+
+:root {
+    --primary-color: #4e73df;
+    --success-color: #1cc88a;
+    --info-color: #36b9cc;
+    --warning-color: #f6c23e;
+    --danger-color: #e74a3b;
+    --secondary-color: #858796;
+    --light-color: #f8f9fc;
+    --dark-color: #5a5c69;
+}
+
+body {
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+    background-color: var(--light-color);
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(180deg, var(--primary-color) 10%, #224abe 100%);
+}
+
+.btn-google {
+    color: white;
+    background-color: #ea4335;
+    border-color: #ea4335;
+}
+
+.btn-google:hover {
+    color: white;
+    background-color: #d23321;
+    border-color: #d23321;
+}
+
+.btn-user {
+    font-size: 0.8rem;
+    border-radius: 10rem;
+    padding: 0.75rem 1rem;
+}
+
+.card {
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15) !important;
+    border: none;
+}
+
+.card-header {
+    background-color: var(--light-color);
+    border-bottom: 1px solid #e3e6f0;
+}
+
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.text-success {
+    color: var(--success-color) !important;
+}
+
+.text-info {
+    color: var(--info-color) !important;
+}
+
+.text-muted {
+    color: var(--secondary-color) !important;
+}
+
+.bg-login-image {
+    background: linear-gradient(180deg, var(--info-color) 10%, #2c9faf 100%);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.recommendation-card {
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.recommendation-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 2rem 0 rgba(58, 59, 69, 0.2) !important;
+}
+
+.analysis-stat {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--light-color);
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.analysis-stat i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.analysis-stat h4 {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+.btn-lg {
+    font-size: 1.1rem;
+    padding: 0.75rem 2rem;
+    border-radius: 0.5rem;
+}
+
+.alert {
+    border: none;
+    border-radius: 0.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 1rem;
+    }
+    
+    .card-body {
+        padding: 1.5rem !important;
+    }
+    
+    .btn-user {
+        width: 100%;
+    }
+}
+
+/* Loading animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--secondary-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--dark-color);
+}
